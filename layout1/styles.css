@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 300px 100px;
+    gap: 20px;
+}
+
+.container > div {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.header {
+    grid-column: 1 / 5;
+}
+
+.content {
+    grid-column: 2 / 5;
+}
+
+.footer {
+    grid-column: 1 / 5;
+}
